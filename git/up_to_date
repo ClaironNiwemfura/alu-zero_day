@@ -1,1 +1,23 @@
-Update README.md
+    1  cd alu-zero_day
+    2  cd git
+    3  git pull
+    4  touch up_to_date
+    5  echo "git pull origin master" > up_to_date
+    6  less up_to_date
+    7  echo "Update README.md" > up_to_date
+    8  git add .
+    9  git commit -m "How to be up to date in git"
+   10  git push
+   11  echo "Update README.md" > up_to_date
+   12  git add .
+   13  git commit -m "How to be up to date in git"
+   14  git push
+   15  git pull
+   16  echo "Update README.md" > up_to_date
+   17  git add .
+   18  git commit -m "How to be up to date in git"
+   19  git push
+   20  gi checkout master
+   21  git checkout master
+   22  git pull
+   23  history > up_to_date
